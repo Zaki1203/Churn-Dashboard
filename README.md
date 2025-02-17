@@ -90,5 +90,20 @@ Customers using fiber optics are more likely to churn compared to those using DS
 
 Customers with month-month type of contract are more likely to churn due high payment amount
 
+## Insights
+From the data visualization, it is evident that:  
+- Customers on two-year contracts  tend to have longer tenure, while most month-to-month contract customers are newer.  
+- The company is at risk of losing recently joined customers, especially those on month-to-month contracts.  
+- 7,043 customers are at risk of churn, with a churn rate of 27%, resulting in $16.06M in yearly charges and $456.12K in monthly charges.  
+- 2,955 tech tickets and 3,632 admin tickets were opened.  
+- Most churned customers did not subscribe to Online Security, Tech Support, or Phone Services.  
+- 42% of churned customers used Fiber Optic as their internet service, indicating potential issues with this service.  
+
+## Recommendations
+1. Encourage customers to switch to one-year or two-year contracts, as month-to-month contracts are less favorable and lead to higher churn.  
+2. Offer discounts or incentives for specific tasks, particularly for month-to-month customers, to improve retention.  
+3. Educate customers on the benefits of subscribing to Online Security and Tech Support, as these services are critical for retention.  
+4. Address issues with Fiber Optic services to reduce dissatisfaction.  
+5. Aim to increase sales of 1-year and 2-year contracts by 5% each and grow automatic payments by 5% yearly. incentives for specific tasks, particularly for month-to-month customers, to improve retention.  
 
 
