@@ -90,6 +90,15 @@ Customers using fiber optics are more likely to churn compared to those using DS
 
 Customers with month-month type of contract are more likely to churn due high payment amount
 
+## Slicers
+
+-Churn Slicer- Allows user to select the option of yes and no for churn
+
+-Internet Slicer-Allows the user to select the internet service option
+
+-Months Subscribed Slicer -Allows the user to change the month subscribed
+
+-Contract Slicer-Allows the user to select the contract type
 ## Insights
 From the data visualization, it is evident that:  
 - Customers on two-year contracts  tend to have longer tenure, while most month-to-month contract customers are newer.  
