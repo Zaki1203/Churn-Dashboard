@@ -28,6 +28,15 @@ Open Microsoft Power BI, navigate to Get Data, and select Excel. Locate and open
 Upon inspecting the dataset, I observed that it contains 24 columns 
 I reviewed the data types of all columns to ensure accuracy and consistency. Additionally, I added a conditional column named tenure in yrs on tenure if my tenure is less than 12 then <1 yr, else if my tenure is 24 then <2yrs nad elseif my tenure is less than 36 then <3yrs
 
+## Data Modeling
+
+And then dataset was cleaned and transformed, it was ready to the data modeled.
+
+The customer churn tables as show below:
+
+<img width="503" alt="image" src="https://github.com/user-attachments/assets/22a1f649-7e5e-4f39-a3cb-7d33feca7c90" />
+
+
 ## Dax
 -% of dependents = DIVIDE(CALCULATE(COUNT('01 Churn-Dataset'[Dependents]),'01 Churn-Dataset'[Dependents]="Yes",'01 Churn-Dataset'[Churn]="Yes"),CALCULATE(COUNT('01 Churn-Dataset'[Dependents]),'01 Churn-Dataset'[Churn]="Yes"),0)
 
@@ -56,7 +65,30 @@ I reviewed the data types of all columns to ensure accuracy and consistency. Add
 -Churn Rate = DIVIDE(CALCULATE(COUNT('01 Churn-Dataset'[Churn]),'01 Churn-Dataset'[Churn]="Yes"),COUNT('01 Churn-Dataset'[Churn]),0)
 
 
+## Data Visualisation
 
+I have made 2 pages for the analysis namely
+-Churn Analysis dashboard
+-Customer Risk Analysis
+
+![image](https://github.com/user-attachments/assets/cccdd82a-4901-4b45-9175-b56d71c43345)
+
+![image](https://github.com/user-attachments/assets/a3dc947b-427c-4d3c-b49d-d47d1ea40965)
+
+## Analysis
+
+<img width="203" alt="image" src="https://github.com/user-attachments/assets/60618cc7-abe9-44d5-85e3-6131381b217f" />
+
+
+Customers with less than 1 year of subscription showed the highest churn rate (55.48%) followed by those with less than 2 years (15.73) and less than 3 years (9.63%) In contrast, customers with less than 6 years of tenure had the lowest churn rate at 4.98%
+
+![image](https://github.com/user-attachments/assets/336e8e65-ff04-418d-aa22-fcf076e7fad8)
+
+Customers using fiber optics are more likely to churn compared to those using DSL
+
+![image](https://github.com/user-attachments/assets/e7c7e814-948b-4282-b2a4-fbd6835c5c7b)
+
+Customers with month-month type of contract are more likely to churn due high payment amount
 
 
 
